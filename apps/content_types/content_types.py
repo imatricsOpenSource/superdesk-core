@@ -51,6 +51,9 @@ class ContentTypesResource(superdesk.Resource):
             "type": "string",
             "iunique": True,
         },
+        'type': {
+            'type': 'string',
+        },
         "item_type": {
             "type": "string",
             "nullable": True,

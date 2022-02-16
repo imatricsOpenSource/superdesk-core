@@ -224,6 +224,7 @@ class PreferencesResource(Resource):
 
     superdesk.register_default_user_preference("editor:char_limit_ui", {})
     superdesk.register_default_user_preference("editor:pinned_widget", {})
+    superdesk.register_default_user_preference("authoring:field_preferences", {})
 
     superdesk.register_default_session_preference("scratchpad:items", [])
     superdesk.register_default_session_preference("desk:last_worked", "")
